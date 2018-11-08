@@ -1,4 +1,5 @@
-# HowTo
+# AwesomeLaboSecu
+
 Documentations, tutoriels et cours.
 
 ## Liens utiles
