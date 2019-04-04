@@ -67,7 +67,7 @@ Le message est par la suite envoyée sur le serveur, et stocké sur celui ci.
 Puis est reçu par Bob. 
 A la réception du message, le moteur de rendu HTML contenu dans son navigateur va tenter de charger l'image et effectuer une requête à son insu vers le site malicieux d'Alice.
 
-**Bob à été victime d'une attaque XSS ! **
+**Bob à été victime d'une attaque XSS !**
 
 Cette attaque est plutôt limité mais peut permettre à un attaquant d'aller beaucoup plus loin, en injectant des scripts javascript qui peuvent remplir automatiquement des formulaires avec les informations de session de la victime par exemple.
 
