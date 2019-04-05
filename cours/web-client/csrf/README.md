@@ -9,7 +9,7 @@ Un membre de ce même site web veut supprimer un des messages du site web. Mais 
 
 ### Exploit
 
-Le membre arrive à connaitre le lien qui permet de supprimer le message en question.
+Le membre arrive à connaître le lien qui permet de supprimer le message en question.
 Le membre envoie un message avec un lien vers une page web contenant une balise image avec le lien de suppression du message à la place du lien vers un image.
 
 Exemple de balise image malicieuse :
@@ -37,8 +37,6 @@ Website -> Website : Delete meesage with Victim's credentials
 - Utiliser des jetons de validité (ou *Token*)  dans les formulaires via le chiffrement d'un identifiant utilisateur, un nonce et un horodatage. Le  serveur doit vérifier la correspondance du jeton envoyé en recalculant  cette valeur et en la comparant avec celle reçue.
 - Éviter d'utiliser des requêtes HTTP GET pour effectuer des actions :  cette technique va naturellement éliminer des attaques simples basées  sur les images, mais laissera passer les attaques fondées sur  JavaScript, lesquelles sont capables très simplement de lancer des  requêtes HTTP POST.
 - Effectuer une vérification du référent dans les pages sensibles : connaître la provenance du client permet de  sécuriser ce genre d'attaques. Ceci consiste à bloquer la requête du  client si la valeur de son référent est différente de la page d'où il  doit théoriquement provenir.
-
-
 
 ## Référence
 
